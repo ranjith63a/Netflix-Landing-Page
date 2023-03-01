@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Netflix</title>
+</head>
+<body>
+
+	<div class="outer-container" >
+		<div class="bg-img-div" >
+			<img src="bg-img.jpg">
+		</div>
+		<div class="bg-overlay" >
+		</div>
+		<div class="nav" >
+
+			<img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png">
+
+			<div class="btns" >
+				<button>English</button>
+				<button>Sign In</button>
+			</div>
+
+		</div>
+		<div class="text-of-netflix">
+			<h1 class="netflix-about1">Unlimited movies, TV <br>shows and more.</h1>
+			<h3 class="netflix-about2">Watch anywhere. Cancel anytime.<br>
+				Ready to watch? Enter your email to create or restart your membership.</h3>
+			<div class="input-div">
+				<input type="email" class="input" placeholder="Email Address">
+				<button>Get Started <span style="font-size: 26px; font-weight: normal;">></span></button>
+			</div>
+		</div>
+		
+	</div>
+
+</body>
+</html>
+<style type="text/css">
+	body{
+		margin: 0px;
+		overflow: hidden;
+		overflow-y: hidden;
+	}
+	.outer-container{
+		width: 100%;
+		height: 100vh;
+	}
+	.bg-img-div{
+		width: 100%;
+		height: 100vh;
+	}
+
+	.bg-img-div img{
+		width: 100%;
+		height: 100vh;
+	}
+	.bg-overlay{
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		background: rgba(0, 0, 0, 0.6);
+		top: 0;
+	}
+	.nav{
+		position: absolute;
+		top: 0;
+		height: 100px;
+		width: 100%;
+	
+		display: flex;
+		justify-content: space-between;
+	}
+	.nav img{
+		width: 250px;
+		height: 100px;
+	}
+	.nav .btns{
+		margin-top: auto;
+		margin-bottom: auto;
+		padding-right: 80px;
+		
+	}
+	.nav .btns button{
+		border: none;
+		background: red;
+		font-size: 18px;
+		padding: 10px;
+		color: white;
+		border-radius: 6px;
+		font-weight: bold;
+		margin-right: 20px;
+
+	}
+	.netflix-about1{
+		font-weight: bold;
+		color: white;
+		font-size: 60px;
+
+	}
+	.netflix-about2{
+		font-weight: 100;
+		color: white;
+		font-size: 25px;
+
+	}
+	.text-of-netflix{
+		color: white;
+		width: 100%;
+		height: auto;
+		position: absolute;
+		top: 20%;
+		text-align: center;
+	
+		margin: auto;
+
+	}
+	.input-div{
+		display: flex;
+		justify-content: center;
+		gap: 2px;
+	}
+	.input-div button{
+		border: none;
+		background: red;
+		font-size: 26px;
+		padding: 10px;
+		color: white;
+		font-weight: normal;
+		margin-right: 20px;
+	}
+	.input{
+		width: 500px;
+		height: 70px;
+		border-bottom: 2px solid yellow;
+		outline: none;
+		border: none;
+		font-size: 14px;
+		padding-left: 10px;
+	}
+</style>
